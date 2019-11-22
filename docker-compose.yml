@@ -1,0 +1,8 @@
+version: "3"
+services:
+  funnel:
+    image: funnel
+    build: .
+    volumes:
+      - ./:/home/appuser/app/
+    user: root
